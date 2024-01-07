@@ -9,7 +9,6 @@ export default {
       },
       backgroundImage: {
         HeroImage: "url('/src/assets/HeroImage.png')",
-        // url2: "url('/src/assets/earth.png')",
       },
     },
   },

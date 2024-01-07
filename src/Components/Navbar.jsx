@@ -26,43 +26,43 @@ const Navbar = () => {
                   isPending
                     ? "font-[350] md:text-[#ffffff]"
                     : isActive
-                    ? "underline"
+                    ? "underline text-[#FE4D01] font-[500] "
                     : ""
                 }
               >
                 <li>About</li>
               </NavLink>
               <NavLink
-                to="/blog"
+                to="/event"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "font-[350] md:text-[#ffffff] "
                     : isActive
-                    ? " underline "
+                    ? " underline text-[#FE4D01] font-[500] "
                     : ""
                 }
               >
                 <li>Event</li>
               </NavLink>
               <NavLink
-                to="/service"
+                to="/"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "font-[300] md:text-[#ffffff]"
                     : isActive
-                    ? " underline "
+                    ? " underline text-[#FE4D01] font-[500] "
                     : ""
                 }
               >
                 <li>Media</li>
               </NavLink>
               <NavLink
-                to="/service"
+                to="/faq"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "font-[350] md:text-[#ffffff]"
                     : isActive
-                    ? " underline "
+                    ? " underline text-[#FE4D01] font-[500] "
                     : ""
                 }
               >
@@ -85,11 +85,6 @@ const Navbar = () => {
               <CloseLineIcon />
             </div>
           )}
-          {/* <div className={`md:flex ${!open ? "block" : "hidden"}`}>
-            <div className="w-[150px] px-2 py-2 md:px-5 md:py-4 rounded font-[500px] text-white text-center text-[14px] lg:text-[24px] border-2 border-yellow-500 bg-[#000000] transition-all duration-300 ease-in-out">
-              <a href="">Contact</a>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
