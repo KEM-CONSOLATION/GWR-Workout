@@ -9,6 +9,7 @@ import EventCard from "./EventCard";
 import handLeft from "../assets/handLeft.png";
 import handright from "../assets/handright.png";
 import womanBaby from "../assets/womanBaby.png";
+import womanBaby2 from "../assets/womanBaby2.png";
 import { Link } from "react-router-dom";
 
 const EventDetails = () => {
@@ -88,7 +89,8 @@ const EventDetails = () => {
             Mission and Motivation{" "}
           </p>
 
-          <img src={womanBaby} className=" w-full" alt="" />
+          <img src={womanBaby} className=" hidden md:block w-full" alt="" />
+          <img src={womanBaby2} className=" w-full block md:hidden" alt="" />
           <p className=" font-[400] text-[16px] lg:text-[20px] leading-[30px] mt-5  lg:leading-[46px] text-[#ffffff]">
             Focused on enhancing infant and maternal health in Nigeria, the
             initiative involves strategic partnerships with NGOs, government

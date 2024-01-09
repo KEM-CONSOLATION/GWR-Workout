@@ -40,7 +40,7 @@ const HeroSection = () => {
                 Jan
               </p>
             </div>
-            <div className=" text-white">
+            <div className=" hidden sm:block text-white">
               <p className=" font-[400] text-[14px] lg:text-[24px] ">
                 The PushUp-Mania24
               </p>
@@ -50,7 +50,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=" flex items-center gap-2 lg:gap-5 text-white">
+          <div className=" flex items-center gap-5 text-white">
             <div className=" flex flex-col items-center">
               <p className=" text-[14px] lg:text-[24px] font-Orbitron font-[400] ">
                 122
