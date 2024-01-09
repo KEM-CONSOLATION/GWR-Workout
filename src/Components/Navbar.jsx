@@ -45,7 +45,7 @@ const Navbar = () => {
                 <li>Event</li>
               </NavLink>
               <NavLink
-                to="/"
+                to="/media"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "font-[300] md:text-[#ffffff]"

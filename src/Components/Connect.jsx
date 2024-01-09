@@ -1,14 +1,14 @@
 import React from "react";
 import Dot from "../assets/Dot.png";
 import Logo2 from "../assets/Logo2.png";
-import Youtube from "../assets/Youtube.png";
-import Tw from "../assets/Tw.png";
-import Fb from "../assets/Fb.png";
-import Insta from "../assets/Insta.png";
+import Insta from "../assets/icon1.png";
+import Tw from "../assets/icon2.png";
+import Fb from "../assets/icon3.png";
+import Tiktok from "../assets/icon4.png";
 const Connect = () => {
   return (
-    <div className=" bg-[#FEDFD1]">
-      <div className=" mx-10 2xl:mx-40">
+    <div className=" bg-[#2C2C2C]">
+      {/* <div className=" mx-10 2xl:mx-40">
         <div className=" w-full lg:max-w-[500px] mx-auto text-center py-5 lg:py-20">
           <p className=" font-[400] text-[14px] lg:text-[18px] text-[#333333] py-1 lg:py-5">
             Join Us for a Momentous Event! Witness History Live
@@ -64,9 +64,9 @@ const Connect = () => {
             See Event Details Here
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="bg-[#FE4D01] py-5">
+      {/* <div className="bg-[#FE4D01] py-5">
         <marquee direction="left">
           <div className=" flex items-center gap-5">
             <img src={Logo2} alt="" />
@@ -78,20 +78,20 @@ const Connect = () => {
             <img src={Logo2} alt="" />
           </div>
         </marquee>
-      </div>
+      </div> */}
 
       <div className=" mx-10 2xl:mx-40 py-5">
-        <p className=" font-[400] text-[14px] lg:text-[20px] text-[#616161] leading-[26px] lg:leading-[38px]">
+        <p className=" font-[400] text-[14px] lg:text-[20px] text-[#ffffff] leading-[26px] lg:leading-[38px]">
           Connect with us on social media to stay updated on the latest
           developments and join the conversation. Use the hashtags
           #PushUpMania24 #BreakTheLimits to share your support, stories, and
           follow the journey towards breaking records for a cause.
         </p>
         <div className=" flex items-center gap-2 lg:gap-5 py-10">
-          <img src={Fb} alt="" className="w-[50px] lg:w-[80px]" />
-          <img src={Tw} alt="" className="w-[50px] lg:w-[80px]" />
           <img src={Insta} alt="" className="w-[50px] lg:w-[80px]" />
-          <img src={Youtube} alt="" className="w-[50px] lg:w-[80px]" />
+          <img src={Tw} alt="" className="w-[50px] lg:w-[80px]" />
+          <img src={Fb} alt="" className="w-[50px] lg:w-[80px]" />
+          <img src={Tiktok} alt="" className="w-[50px] lg:w-[80px]" />
         </div>
       </div>
     </div>

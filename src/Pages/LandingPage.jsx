@@ -9,11 +9,11 @@ import Footer from "../Components/Footer";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="">
       <HeroSection />
       <EventDetails />
       <Achievements />
-      <Outline />
+      {/* <Outline /> */}
       <Difference />
       <Connect />
       <Footer />
