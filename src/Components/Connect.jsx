@@ -88,9 +88,19 @@ const Connect = () => {
           follow the journey towards breaking records for a cause.
         </p>
         <div className=" flex items-center gap-2 lg:gap-5 py-10">
-          <img src={Insta} alt="" className="w-[50px] lg:w-[80px]" />
-          <img src={Tw} alt="" className="w-[50px] lg:w-[80px]" />
-          <img src={Fb} alt="" className="w-[50px] lg:w-[80px]" />
+          <a href="https://www.instagram.com/pushupmania_?igsh=NTc4MTIwNjQ2YQ==" target="_blank>
+             <img src={Insta} alt="" className="w-[50px] lg:w-[80px]" />
+          </a>
+
+        <a href="https://twitter.com/pushupmania_?t=yrPTdaoQuoomOVeXJb6XAA&s=09" target="_blank>
+             <img src={Tw} alt="" className="w-[50px] lg:w-[80px]" />
+          </a>
+
+        <a href="https://www.youtube.com/@Theinfernoisaac" target="_blank>
+             <img src={Fb} alt="" className="w-[50px] lg:w-[80px]" />
+          </a>
+          
+          
           {/* <img src={Tiktok} alt="" className="w-[50px] lg:w-[80px]" /> */}
         </div>
       </div>
