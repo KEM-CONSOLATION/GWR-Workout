@@ -9,8 +9,7 @@ const FAQ = () => {
     },
     {
       question: "How can I contribute to the project?",
-      answer:
-        "You can contribute by following the guidelines in the project's README file and submitting pull requests on GitHub.",
+      answer: "Lorem ipsum dolor sit amet consectetur.",
     },
   ];
 
