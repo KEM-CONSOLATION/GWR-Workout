@@ -8,28 +8,40 @@ const HeroSection = () => {
       <Navbar />
       <div className="  mx-auto  text-center text-white relative z-10 ">
         <div className="  my-20 text-center mx-auto">
-          <p className=" text-[16px] lg:text-[18px] font-[400]">
+          <p
+            className=" text-[16px] lg:text-[18px] font-[400]"
+            data-aos="fade-down"
+          >
             Fitness Milestine Unlocked
           </p>
-          <p className=" text-[24px] lg:text-[64px] font-[600] py-10">
+          <p
+            className=" text-[24px] lg:text-[64px] font-[600] py-10"
+            data-aos="fade-up"
+          >
             PUSHING BEYOND BOUNDARIES
           </p>
-          <p className="text-[16px] lg:text-[20px] font-[400]">
+          <p
+            className="text-[16px] lg:text-[20px] font-[400]"
+            data-aos="fade-left"
+          >
             Join us for a Historic Record-Breaking Event
           </p>
         </div>
 
         <div className=" max-w-[400px] mx-10  sm:mx-auto flex items-center justify-between border-t py-10 font-[400] text-[14px] lg:text-[20px] ">
-          <div className="">
+          <div className="" data-aos="fade-right">
             <p>3rd January, 2024</p>
           </div>
-          <div className="">
+          <div className="" data-aos="fade-left">
             <p>Lekki Lagos, Nigeria</p>
           </div>
         </div>
       </div>
 
-      <div className=" flex items-center justify-center py-20">
+      <div
+        className=" flex items-center justify-center py-20"
+        data-aos="fade-up"
+      >
         <div className=" bg-[#FE4D01] shadow-lg shadow-[#61616140] shadow-inner-[#61616140] rounded absolute bottom-[-40px] w-full md:w-[800px] lg:w-[1200px]  flex items-center justify-between pr-5 gap-3 lg:gap-5">
           <div className=" flex items-center gap-5">
             <div className=" bg-[#d86839] text-white p-3 lg:p-8">
