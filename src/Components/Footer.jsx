@@ -20,7 +20,7 @@ const Footer = () => {
 
           <div className=" max-w-[400px] w-full">
             <p className=" font-[400] text-[16px] pb-5">
-              Subscribe to newsletters to receive updates, news, notifications
+              Subscribe to our newsletters to receive updates, news, notifications
               about this event
             </p>
             <div className=" flex items-center gap-3">
