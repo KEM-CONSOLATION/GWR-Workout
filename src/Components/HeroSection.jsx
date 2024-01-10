@@ -1,5 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Date from "../assets/date.png";
+import Location from "../assets/location.png";
+import Countdown from "./CountDown";
 
 const HeroSection = () => {
   return (
@@ -29,10 +32,13 @@ const HeroSection = () => {
         </div>
 
         <div className=" max-w-[400px] mx-10  sm:mx-auto flex items-center justify-between border-t py-10 font-[400] text-[14px] lg:text-[20px] overflow-hidden">
-          <div className="" data-aos="fade-right">
-            <p>3rd January, 2024</p>
+          <div className=" flex items-center gap-2" data-aos="fade-right">
+            <img src={Date} alt="" />
+            <p>12th January, 2024</p>
           </div>
-          <div className="" data-aos="fade-left">
+          <div className=" flex items-center gap-2" data-aos="fade-left">
+            <img src={Location} alt="" />
+
             <p>Lekki Lagos, Nigeria</p>
           </div>
         </div>
@@ -62,16 +68,17 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=" flex items-center gap-5 text-white">
+          <Countdown />
+          {/* <div className=" flex items-center gap-5 text-white">
             <div className=" flex flex-col items-center">
-              <p className=" text-[14px] lg:text-[24px] font-Orbitron font-[400] ">
+              <p className=" text-[14px] lg:text-[50px] font-Orbitron font-[400] ">
                 122
               </p>
               <p className="">Days</p>
             </div>
             <p>:</p>
             <div className=" flex flex-col items-center">
-              <p className=" text-[14px] lg:text-[24px] font-Orbitron font-[400] ">
+              <p className=" text-[14px] lg:text-[50px] font-Orbitron font-[400] ">
                 122
               </p>
               <p className="">Hours</p>
@@ -79,7 +86,7 @@ const HeroSection = () => {
             <p>:</p>
 
             <div className=" flex flex-col items-center">
-              <p className=" text-[14px] lg:text-[24px] font-Orbitron font-[400] ">
+              <p className=" text-[14px] lg:text-[50px] font-Orbitron font-[400] ">
                 122
               </p>
               <p className="">Minutes</p>
@@ -87,12 +94,12 @@ const HeroSection = () => {
             <p>:</p>
 
             <div className=" flex flex-col items-center">
-              <p className=" text-[14px] lg:text-[24px] font-Orbitron font-[400] ">
+              <p className=" text-[14px] lg:text-[50px] font-Orbitron font-[400] ">
                 122
               </p>
               <p className="">Seconds</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
