@@ -24,7 +24,7 @@ const EventDetails = () => {
         </p>
       </div>
 
-      <div className=" grid sm:grid-cols-2 sm:mx-10 md:grid-cols-4 gap-16 md:gap-0 py-20">
+      <div className=" grid sm:grid-cols-2 sm:mx-10 md:grid-cols-4 gap-16 md:gap-0 py-20 overflow-hidden">
         <div className="" data-aos="fade-up">
           <EventCard
             img={What}
@@ -55,7 +55,7 @@ const EventDetails = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className=" overflow-hidden">
         <p className=" text-center text-[#ffffff] font-[500] text-[20px] lg:text-[32px]">
           The <span className=" text-[#FE4D01]">PushUp-Mania24</span> Story
         </p>
