@@ -15,7 +15,7 @@ const HeroSection = () => {
             className=" text-[16px] lg:text-[18px] font-[400]"
             data-aos="fade-down"
           >
-            Fitness Milestine Unlocked
+            Fitness Milestone Unlocked
           </p>
           <p
             className=" text-[24px] lg:text-[64px] font-[600] py-10"
