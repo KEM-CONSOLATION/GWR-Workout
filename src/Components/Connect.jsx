@@ -91,7 +91,7 @@ const Connect = () => {
           <img src={Insta} alt="" className="w-[50px] lg:w-[80px]" />
           <img src={Tw} alt="" className="w-[50px] lg:w-[80px]" />
           <img src={Fb} alt="" className="w-[50px] lg:w-[80px]" />
-          <img src={Tiktok} alt="" className="w-[50px] lg:w-[80px]" />
+          {/* <img src={Tiktok} alt="" className="w-[50px] lg:w-[80px]" /> */}
         </div>
       </div>
     </div>

@@ -24,35 +24,32 @@ const EventDetails = () => {
         </p>
       </div>
 
-      <div className=" grid sm:grid-cols-2 sm:mx-10 md:grid-cols-4 gap-16 md:gap-0 py-20 overflow-hidden">
+      <div className=" grid gap-5 sm:grid-cols-3 sm:mx-10 md:flex md:max-w-5xl md:justify-between md:mx-auto py-20 overflow-hidden">
         <div className="" data-aos="fade-up">
-          <EventCard
-            img={What}
-            title="What?"
-            text="The PushUp-Mania24  is a challenge that is majorly created to create awareness on the increase in maternity and child mortality rate in Nigeria."
-          />
+          <EventCard img={What} title="What?" text="A push for awareness" />
         </div>
         <div className="" data-aos="fade-down">
-          <EventCard
-            img={When}
-            title="When?"
-            text="The PushUp-Mania24 will take place on January 12th—mark your calendars for an unforgettable experience!"
-          />
+          <EventCard img={When} title="When?" text="12th January, 2024" />
         </div>
-        <div className="" data-aos="fade-right">
+        <div className=" " data-aos="fade-right">
           <EventCard
             img={Where}
             title="Where?"
-            text="This event will take place at Pure Fitness Gym, Marwa-Lekki, Lagos. There will also be an active 24/7 livestream on every social media channel"
+            text={
+              <>
+                Pure Fitness Gym, Marwa-Lekki, Lagos. <br />
+                Livestream on social media channels
+              </>
+            }
           />
         </div>
-        <div className="" data-aos="fade-left">
+        {/* <div className="" data-aos="fade-left">
           <EventCard
             img={Why}
             title="Why?"
             text="Beyond the physical feat, this attempt holds personal significance—a testament to a relentless determination and an attempt to create awareness "
           />
-        </div>
+        </div> */}
       </div>
 
       <div className=" overflow-hidden">

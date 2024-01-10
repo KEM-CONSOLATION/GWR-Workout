@@ -8,20 +8,20 @@ const Footer = () => {
     <div className=" bg-[#FE4D01] py-10 text-white">
       <div className=" mx-10 2xl:mx-40">
         {/* <div className=" grid lg:grid-cols-3  items-center gap-10 border-b"> */}
-        <div className=" grid gap-10 lg:gap-0 lg:flex justify-between items-center border-b pb-10">
+        <div className=" grid gap-10 lg:gap-40 lg:flex justify-start items-center border-b pb-10">
           <div className=" max-w-[400px]">
             <img src={Logo2} alt="" className=" " />
-            <p className=" font-[400] text-[16px] py-5 leading-[30px]">
+            {/* <p className=" font-[400] text-[16px] py-5 leading-[30px]">
               Lorem ipsum dolor sit amet consectetur. Nunc dui at diam semper
               habitasse malesuada pharetra euismod. Sodales et enim nullam
               ornare dictumst quis mauris in adipiscing. Quis velit eget et.
-            </p>
+            </p> */}
           </div>
 
           <div className=" max-w-[400px] w-full">
             <p className=" font-[400] text-[16px] pb-5">
-              Lorem ipsum dolor sit amet consectetur. Nunc dui at diam semper
-              habitasse
+              Subscribe to newsletters to receive updates, news, notifications
+              about this event
             </p>
             <div className=" flex items-center gap-3">
               <input
@@ -34,7 +34,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="max-w-[400px]">
+          {/* <div className="max-w-[400px]">
             <p className=" font-[400] text-[16px] pb-5">Follow us On:</p>
             <div className=" flex items-center gap-5">
               <img src={Tw} alt="" className=" border rounded-full w-[50px] " />
@@ -45,7 +45,7 @@ const Footer = () => {
                 className=" border rounded-full w-[50px] "
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

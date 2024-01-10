@@ -14,7 +14,7 @@ const Navbar = () => {
               <img src={Logo} alt="" />
             </Link>
           </div>
-          <div
+          {/* <div
             className={`md:flex text-white font-[400] ${
               !open ? "block" : "hidden"
             }`}
@@ -84,7 +84,7 @@ const Navbar = () => {
             >
               <CloseLineIcon />
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>

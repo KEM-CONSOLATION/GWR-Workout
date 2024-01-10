@@ -14,9 +14,9 @@ export default function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" exact element={<LandingPage />} />
-          <Route path="/about" exact element={<AboutPage />} />
+          {/* <Route path="/about" exact element={<AboutPage />} />
           <Route path="/event" exact element={<EventPage />} />
-          <Route path="/faq" exact element={<FAQPage />} />
+          <Route path="/faq" exact element={<FAQPage />} /> */}
         </Routes>
       </Router>
     </div>
