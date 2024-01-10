@@ -12,7 +12,7 @@ const Achievements = () => {
   }, []);
 
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <div className=" bg-[#1F1F1F]">
         <p
           className=" py-10 font-[700] text-[14px] lg:text-[32px] text-[#ffffff]  text-center "

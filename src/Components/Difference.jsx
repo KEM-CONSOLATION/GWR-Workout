@@ -3,7 +3,7 @@ import Diff from "../assets/Diff.png";
 import motherChild from "../assets/motherChild1.png";
 const Difference = () => {
   return (
-    <div className=" bg-[#1F1F1F] py-10">
+    <div className=" bg-[#1F1F1F] py-10 overflow-hidden">
       <div className="">
         <p
           className="  py-10 text-center font-[500] text-[32px] text-[#ffffff]"

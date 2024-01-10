@@ -3,11 +3,11 @@ import Navbar from "./Navbar";
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-red-400 bg-HeroImage  bg-cover bg-center">
+    <div className="relative bg-red-400 bg-HeroImage  bg-cover bg-center ">
       <div className="absolute inset-0 bg-[#000000BD] "></div>
       <Navbar />
       <div className="  mx-auto  text-center text-white relative z-10 ">
-        <div className="  my-20 text-center mx-auto">
+        <div className="  my-20 text-center mx-auto overflow-hidden">
           <p
             className=" text-[16px] lg:text-[18px] font-[400]"
             data-aos="fade-down"
@@ -28,7 +28,7 @@ const HeroSection = () => {
           </p>
         </div>
 
-        <div className=" max-w-[400px] mx-10  sm:mx-auto flex items-center justify-between border-t py-10 font-[400] text-[14px] lg:text-[20px] ">
+        <div className=" max-w-[400px] mx-10  sm:mx-auto flex items-center justify-between border-t py-10 font-[400] text-[14px] lg:text-[20px] overflow-hidden">
           <div className="" data-aos="fade-right">
             <p>3rd January, 2024</p>
           </div>
