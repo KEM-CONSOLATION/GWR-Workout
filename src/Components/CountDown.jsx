@@ -38,7 +38,7 @@ const Countdown = () => {
 
   const calculateTargetDate = () => {
     const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 2);
+    targetDate.setDate(targetDate.getDate() + 1);
     targetDate.setHours(0, 0, 0, 0);
     return targetDate;
   };
