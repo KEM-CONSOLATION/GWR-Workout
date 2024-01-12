@@ -13,6 +13,11 @@ const Countdown = () => {
 
     const updateCountdown = () => {
       const now = new Date();
+      if (now.getDate() === 12) {
+        setCountdown({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        clearInterval(intervalId);
+        return;
+      }
       const difference = targetDate.getTime() - now.getTime();
 
       if (difference > 0) {
